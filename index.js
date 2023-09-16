@@ -23,6 +23,8 @@ const messageRoute = require("./routes/message");
 const customerRoute = require("./routes/customer");
 const agentRoute = require("./routes/agent");
 
+mongoose.set("strictQuery",true);
+
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => console.log("Cloud Mongodb successfully connected!"))
@@ -44,6 +46,6 @@ app.use("/api/customers", customerRoute);
 app.use("/api/agents", agentRoute);
 
 
-http.listen(process.env.PORT || 5500, () => {
-  console.log(`server is running & listening on port : ${process.env.PORT || 5500}` );
+http.listen(process.env.PORT || 900, () => {
+  console.log(`server is running & listening on port : ${process.env.PORT || 900}` );
 });
