@@ -60,13 +60,3 @@ In the directory, "cs-messaging-app-master":
     ```
     npm start
     ```
-Features Implemented : 
-
-- Form based interface for users to submit queries or messages
-- Agent interface that allows to respond to queries
-- Provision to respond to multiple queries of same user in one go
-- Search functionality to allow agents to search over messages and customers
-- Tag messages based on the urgency and surface urgent messages
-- Filter the user-queries based on resolution status and urgency
-- View all agent responses and link to queries resolved by the agent
-
