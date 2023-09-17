@@ -15,11 +15,11 @@ Both server & frontend App are hosted on:
 - server: [https://cs-mesaging-app.onrender.com](https://cs-mesaging-app.onrender.com)
 - postman APIs collection: [https://www.postman.com/...](https://www.postman.com/planetary-equinox-821652/workspace/branch-assignment-by-rachit-goel/collection/19949199-eb06d1c9-411a-4dc4-9798-f9d51adc7a9c?action=share&creator=19949199) You can set environment as heroku server or local server. -->
 
-Navigate to http://localhost:3000/select-customer to see the customer interface
-Navigate to http://localhost:3000/select-agent to see the agent interface
-Navigate to http://localhost:3000/api/conversations/unalloted to see the Unalloted query
-Navigate to http://localhost:3000/api/conversations/allot to see the Alloted query
-Navigate to http://localhost:3000/api/messages/search to search the query
+ http://localhost:3000/select-customer to see the customer interface
+ http://localhost:3000/select-agent to see the agent interface
+ http://localhost:3000/api/conversations/unalloted to see the Unalloted query
+ http://localhost:3000/api/conversations/allot to see the Alloted query
+ http://localhost:3000/api/messages/search to search the query
 
 ### Running Locally
 
@@ -61,6 +61,7 @@ In the directory, "cs-messaging-app-master":
     npm start
     ```
 Features Implemented : 
+
 - Form based interface for users to submit queries or messages
 - Agent interface that allows to respond to queries
 - Provision to respond to multiple queries of same user in one go
