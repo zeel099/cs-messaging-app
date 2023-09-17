@@ -1,6 +1,7 @@
 # CS Messaging App
 It's a real-time chat application for multiple agents who provide support to multiple customers who can create queries and then some agent will be alloted to a query to solve issue by real time messaging with that customer. It also tag urgent messages based on important strings appearing in their chats.
-
+### Screen Recorder 
+[Screen Recording](https://drive.google.com/file/d/1NjwmASfxJMoS5JdGqLF_PM3fj1X1ncEX/view?usp=sharing)
 ### How to get Started?
 
 #### Clone repo
@@ -57,7 +58,7 @@ Both server & frontend App are hosted on:
  - http://localhost:3000/api/messages/search to search the query
 
 ## Implemented features
-- Form based interface for users to submit queries or messages
+- customer interface for submit queries or messages
 - Agent interface that allows to respond to queries
 - Provision to respond to multiple queries of same user in one go
 - Search functionality to allow agents to search over messages and customers
