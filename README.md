@@ -7,25 +7,31 @@ It's a real-time chat application for multiple agents who provide support to mul
 - To surface additional information about customers.
 - Using socket.io, so that new incoming messages can show up in real time.
 
-## How to run 
+## How to run
 
 Both server & frontend App are hosted on:
 
-- client: [https://admirable-caramel-5b6f46.netlify.app](https://admirable-caramel-5b6f46.netlify.app)
+<!-- - client: [https://admirable-caramel-5b6f46.netlify.app](https://admirable-caramel-5b6f46.netlify.app)
 - server: [https://cs-mesaging-app.onrender.com](https://cs-mesaging-app.onrender.com)
-- postman APIs collection: [https://www.postman.com/...](https://www.postman.com/planetary-equinox-821652/workspace/branch-assignment-by-rachit-goel/collection/19949199-eb06d1c9-411a-4dc4-9798-f9d51adc7a9c?action=share&creator=19949199) You can set environment as heroku server or local server.
+- postman APIs collection: [https://www.postman.com/...](https://www.postman.com/planetary-equinox-821652/workspace/branch-assignment-by-rachit-goel/collection/19949199-eb06d1c9-411a-4dc4-9798-f9d51adc7a9c?action=share&creator=19949199) You can set environment as heroku server or local server. -->
+
+Navigate to http://localhost:3000/select-customer to see the customer interface
+Navigate to http://localhost:3000/select-agent to see the agent interface
+Navigate to http://localhost:3000/api/conversations/unalloted to see the Unalloted query
+Navigate to http://localhost:3000/api/conversations/allot to see the Alloted query
+Navigate to http://localhost:3000/api/messages/search to search the query
 
 ### Running Locally
 
-#### Clone repo 
-    
-    git clone https://github.com/Rachit-Goel/cs-messaging-app.git
-   
+#### Clone repo
+
+    git clone https://github.com/zeel099/cs-messaging-app
+
 
 #### To run Server
 In the directory, "cs-messaging-app-master":
 
-- Install all packages for the server, run command 
+- Install all packages for the server, run command
     ```
     npm install
     ```
@@ -42,17 +48,24 @@ In the directory, "cs-messaging-app-master":
     cd client
     ```
 
-- Install all packages for the client, run command 
+- Install all packages for the client, run command
     ```
     npm install
     ```
 
-- In file- "cs-messaging-app-master/client/src/index.js" : 
-    To use local server url - uncomment the line 11 and comment the line 9.
+- In file- "cs-messaging-app-master/client/src/index.js" :
+  To use local server url - uncomment the line 11 and comment the line 9.
 
 - Then, to run WebApp, run command
     ```
     npm start
     ```
-
+Features Implemented : 
+- Form based interface for users to submit queries or messages
+- Agent interface that allows to respond to queries
+- Provision to respond to multiple queries of same user in one go
+- Search functionality to allow agents to search over messages and customers
+- Tag messages based on the urgency and surface urgent messages
+- Filter the user-queries based on resolution status and urgency
+- View all agent responses and link to queries resolved by the agent
 
