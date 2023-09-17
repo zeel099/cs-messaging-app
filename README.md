@@ -1,27 +1,7 @@
 # CS Messaging App
 It's a real-time chat application for multiple agents who provide support to multiple customers who can create queries and then some agent will be alloted to a query to solve issue by real time messaging with that customer. It also tag urgent messages based on important strings appearing in their chats.
-## Implemented features
-- Scheme to help agents divide work amongst themselves & to prevent multiple agents working on the same message at once.
-- To surface messages that are more urgent and in need of immediate attention using "Urgent" tag.
-- Search functionality to allow agents to search over messages and customers.
-- To surface additional information about customers.
-- Using socket.io, so that new incoming messages can show up in real time.
 
-## How to run
-
-Both server & frontend App are hosted on:
-
-<!-- - client: [https://admirable-caramel-5b6f46.netlify.app](https://admirable-caramel-5b6f46.netlify.app)
-- server: [https://cs-mesaging-app.onrender.com](https://cs-mesaging-app.onrender.com)
-- postman APIs collection: [https://www.postman.com/...](https://www.postman.com/planetary-equinox-821652/workspace/branch-assignment-by-rachit-goel/collection/19949199-eb06d1c9-411a-4dc4-9798-f9d51adc7a9c?action=share&creator=19949199) You can set environment as heroku server or local server. -->
-
- - http://localhost:3000/select-customer to see the customer interface
- - http://localhost:3000/select-agent to see the agent interface
- - http://localhost:3000/api/conversations/unalloted to see the Unalloted query
- - http://localhost:3000/api/conversations/allot to see the Alloted query
- - http://localhost:3000/api/messages/search to search the query
-
-### Running Locally
+### How to get Started?
 
 #### Clone repo
 
@@ -60,3 +40,27 @@ In the directory, "cs-messaging-app-master":
     ```
     npm start
     ```
+
+
+## How to run
+
+Both server & frontend App are hosted on:
+
+<!-- - client: [https://admirable-caramel-5b6f46.netlify.app](https://admirable-caramel-5b6f46.netlify.app)
+- server: [https://cs-mesaging-app.onrender.com](https://cs-mesaging-app.onrender.com)
+- postman APIs collection: [https://www.postman.com/...](https://www.postman.com/planetary-equinox-821652/workspace/branch-assignment-by-rachit-goel/collection/19949199-eb06d1c9-411a-4dc4-9798-f9d51adc7a9c?action=share&creator=19949199) You can set environment as heroku server or local server. -->
+
+ - http://localhost:3000/select-customer to see the customer interface
+ - http://localhost:3000/select-agent to see the agent interface
+ - http://localhost:3000/api/conversations/unalloted to see the Unalloted query
+ - http://localhost:3000/api/conversations/allot to see the Alloted query
+ - http://localhost:3000/api/messages/search to search the query
+
+## Implemented features
+- Form based interface for users to submit queries or messages
+- Agent interface that allows to respond to queries
+- Provision to respond to multiple queries of same user in one go
+- Search functionality to allow agents to search over messages and customers
+- Tag messages based on the urgency and surface urgent messages
+- Filter the user-queries based on resolution status and urgency
+- View all agent responses and link to queries resolved by the agent
