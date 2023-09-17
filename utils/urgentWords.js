@@ -1,1 +1,1 @@
-exports.urgentWords = ["setup", "loan","update information", "help"]
+exports.urgentWords = ["setup", "loan","update information", "help","pay"]
