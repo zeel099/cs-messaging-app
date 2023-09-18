@@ -1,7 +1,8 @@
 # CS Messaging App
 It's a real-time chat application for multiple agents who provide support to multiple customers who can create queries and then some agent will be alloted to a query to solve issue by real time messaging with that customer. It also tag urgent messages based on important strings appearing in their chats.
 ### Screen Recorder 
-[![Screen Recording](file:///Users/zeelsojitra/Desktop/scree_recorder.jpeg)](https://drive.google.com/file/d/1oZ_dwJFDXmnq0cZpdUG54E0I0ZSBugl_/view?usp=drive_link)
+[![Screen Recording](![Uploading scree_recorder.jpeg…]()
+)](https://drive.google.com/file/d/1oZ_dwJFDXmnq0cZpdUG54E0I0ZSBugl_/view?usp=drive_link)
 ### How to get Started?
 
 #### Clone repo
